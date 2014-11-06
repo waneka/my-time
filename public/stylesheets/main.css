@@ -1,0 +1,153 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.fixed-header {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  background: #FFFFFF;
+}
+
+.nav-back {
+  padding-top: 15px;
+  font-size: 28px;
+  color: #3195B5;
+}
+
+.nav-menu {
+  padding-top: 15px;
+  font-size: 28px;
+  color: #3195B5;
+}
+
+.nav-menu span {
+  float: right;
+}
+
+.search-tab {
+  text-align: center;
+}
+
+.search-tab h1 {
+  font-size: 24px;
+  font-weight: 100;
+}
+
+.search-bar {
+  margin-top: 60px;
+  border-bottom: 1px solid lightgray;
+}
+
+.search-field {
+  width: 100%;
+  background-color: #EAEDF1;
+  border: none;
+  margin-bottom: 10px;
+  padding: 5px;
+  font-size: 18px;
+  padding-left: 36px;
+}
+
+.form-control-feedback {
+  left: 14px;
+  font-size: 24px;
+  color: #9AA2AE;
+}
+
+.filter-map {
+  color: #3195B5;
+  text-align: center;
+  font-size: 18px;
+  border-bottom: 1px solid lightgray;
+}
+
+.filter-map div {
+  padding: 10px;
+}
+
+.filter {
+  border-right: 1px solid lightgray;
+}
+
+.deals-container {
+  background: #F1F4F6;
+}
+
+.deal-container {
+  display: block;
+  background: white;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.deal-details {
+  height: 100px;
+  border-bottom: 1px solid lightgray;
+}
+
+.photo {
+  height: 100px;
+  width: 130px;
+  margin-right: 10px;
+  border-top-left-radius: 10px;
+}
+
+.photo-container {
+  float: left;
+}
+
+.deal-title {
+  font-size: 22px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  padding-top: 10px;
+  margin: 0px;
+  font-weight: bold;
+}
+
+.lightning-logo {
+  height: 15;
+  width: 18;
+  background: url(http://d2sx8fj3ha7ai7.cloudfront.net/assets/sprite-0e2d326cae17aff8c0eef61ec4902c43.png);
+  background-repeat: no-repeat;
+  background-position: 0px -522px;
+  float: left;
+}
+
+.rating-price {
+  height: 35px;
+  padding: 6px;
+}
+
+.yelp-rating {
+  float: left;
+  margin-right: 5px;
+}
+
+.yelp-logo {
+  float: left;
+  height: 16px;
+  width: 37px;
+  background: url(http://d2sx8fj3ha7ai7.cloudfront.net/assets/sprite-0e2d326cae17aff8c0eef61ec4902c43.png);
+  background-position: 0px -1050px;
+}
+
+.salebtn {
+  background-color: #BF1E2E;
+  font-weight: bold;
+  color: #FFFFFF;
+  float: right;
+  font-size: 12px;
+  padding: 2px 8px;
+}
+
+.price-range {
+  float: right;
+  font-size: 20px;
+  margin-left: 5px;
+  font-weight: bold;
+  margin-top: -2px;
+}
+

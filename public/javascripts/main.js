@@ -4,7 +4,6 @@ $(document).ready(function() {
 })
 
 function fetchData(venueType) {
-  console.log(venueType)
   $.ajax({
     type: 'GET',
     url: '/venues/' + venueType
